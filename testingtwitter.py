@@ -9,10 +9,11 @@ from translate import Translator
 import re
 import matplotlib.pyplot as plt
 
-consumer_key="J4QKHj4d9q2EaDdZX65UlVeSE"
-consumer_secret="TtkHErQPEZK92Jxl5b1ehh72rTu9ONGQdH5LIh3H0WsndTbxti"
-access_token="521075410-1HW74WZDEq2H69ia8NN6GF4XWrAjfrCxqk3rgogz"
-access_token_secret="vvKTqAc9i9D53zMRZO0vLKWjEamR1lwK8nKSXBMtVOjAQ"
+#Enter your own details
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
